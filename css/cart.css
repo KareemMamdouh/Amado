@@ -1,0 +1,355 @@
+*{box-sizing: border-box;}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+}
+.active , .footer2 .container .elm ul  .active {
+    color: #fbb710
+}
+header {
+    width: 20%;
+    float: left;
+    background-color: #fff;
+}
+header img{
+    margin: 70px;
+    width: 40%;
+}
+header ul {
+    width: 100%;
+    
+}
+header ul li {
+margin: 25px 80px;
+list-style: none;
+}
+header ul li a {
+text-decoration: none;
+font-size: 1vw;
+color: #000
+}
+
+.nav2{
+    display: none
+}
+.btn .a {
+    display:block;
+    margin: 13px 80px;
+    text-decoration: none;
+    width: 40%;
+    height: 50px;
+    background-color: #fbb710;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1vw
+}
+.btn .b {
+    display:block;
+    margin: 13px 80px 80px;
+    text-decoration: none;
+    width: 40%;
+    height: 50px;
+    background-color: #fbb710;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1vw;
+}
+.btn .a:hover , .btn .b:hover{
+    background-color: #000;
+}
+.cart {
+    width: 80%;
+    float: left;
+    margin-top: 120px;
+}
+.cart h1{
+    font-size: 30px;
+    margin-bottom: 20px
+}
+
+.cart .division table {
+    width: 60%;
+    float: left;
+}
+
+.cart .division thead tr {
+    width: 100%;
+    height: 50px;
+    background-color: #f5f7fa
+}
+.cart .division thead tr th {
+    width: 25%;
+    text-align: left;
+    padding: 5px;
+    font-size: 14px
+}
+.cart .division tbody tr {
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    font-size: 14px
+}
+.cart .division thead tr th {
+    width: 25%;
+    text-align: left;
+    padding: 5px;
+    
+}
+.cart .division tbody tr img {
+    max-width:100%;
+    padding: 10px
+}
+.cart .division tbody tr  .btn {
+    float: left;
+    width: 30%;
+    background-color: #f5f7fa;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+.cart .division tbody tr  .result {
+    float: left;
+    width: 40%;
+    background-color: #f5f7fa;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+.CartTotal {
+    width: 30%;
+    float: left;
+    background-color: #f5f7fa;
+    height: 350px;
+    margin: 0 5%;
+    padding: 30px 20px;
+}
+.CartTotal h3 {
+    margin: 0 0 10px  0
+}
+.CartTotal .pl {
+    float: left;
+    width: 50%;
+    margin: 10px  0;
+    font-size: 14px
+}
+.CartTotal .pr {
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin: 10px  0;
+    font-size: 14px
+    }
+.CartTotal input {
+    width: 100%;
+    background-color: #fbb710;
+    color: #fff;
+    margin-top: 110px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.clear {
+    clear: both;
+}
+.container {
+    width: 1100px;
+    margin:  auto
+
+}
+.footer1 {
+    background-color: #3c3c3c;
+    width: 100%;
+    height: 300px;
+    color: #fff;
+    padding: 100px 0;
+    margin-top: 20px
+}
+.footer1 .contant {
+    width: 55%;
+    float: left;
+    line-height: 30px
+
+}
+.footer1 .contant span {
+    color: #fbb710;
+
+}
+.footer1 .contant h1 {
+    margin-bottom: 15px
+
+}
+
+.footer1 .input {
+    width: 45%;
+    float: left;
+    
+}
+
+.footer1  input {
+    width: 300px;
+    height: 50px;
+    background-color: #fff;
+    color: #999;
+    margin: 25px 0 0 ;
+    padding: 0 20px;
+    float: left;
+
+}
+.footer1  .sub {
+    width: 150px;
+    height: 50px;
+    background-color: #fbb710;
+    color: #fff;
+    float: left;
+    border : 1px solid #fbb710
+}
+.footer2 {
+    background-color: #252525;
+    height: 230px;
+}
+.footer2 .container .contant {
+width: 50%;
+float: left;
+padding: 70px 20px;
+}
+.footer2 .container .contant p{
+    font-size: 12px;
+    color: #aaa
+    
+    }
+.footer2 .container .elm {
+    width: 50%;
+    float: left;
+    
+    }
+.footer2 .container .elm ul li{
+    float: left;
+    list-style: none;
+    line-height: 230px
+    }
+.footer2 .container .elm ul a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px
+    }
+    ul a:hover , .footer2 .container .elm ul a:hover {
+        color: #fbb710
+    } 
+    
+@media screen and (max-width:620px) {
+    .imgup .imgson {
+        width: 100%;
+        display: block;
+    }
+    header {
+        display: none
+    }
+    .nav2{
+        display: block
+    }
+    .imgup {
+        width: 100%;
+        float: left;
+    }
+    .cart .division table {
+        width: 100%;
+    }
+    .cart {
+        width: 90%;
+        margin-top: 20px;
+
+    }
+    .CartTotal {
+        width:100%;
+       
+    }
+    .footer1   {
+        height: 450px;
+    }
+    .footer1 .input {
+        text-align: center
+        
+    }
+     .container{
+        width: 320px
+    }
+    .footer1 .contant {
+        width: 100%;
+        text-align: center
+
+    }
+    .footer1 .input {
+        width: 100%;
+        text-align: center
+
+    }
+    .footer2 .container .elm {
+        width: 32%;
+        }
+    .footer2 {
+        height: 250px;
+    }
+    .footer2 .container .elm ul li{
+        line-height: 50px
+    }
+    
+}
+@media screen and (max-width:1000px) and (min-width:621px) {
+    .imgup .imgson {
+        width: 50%;
+        display: block;
+        
+    }
+    .imgup .sonup{
+        width: 100%;    
+    }
+    .imgup .imgson .son2{
+        width: 50%;    
+        float: left;
+    }
+    header {
+        display: none
+    }
+    .nav2{
+        display: block
+    }
+    .cart {
+        width: 90%;
+        margin-top: 20px;
+    }
+    .cart .division table {
+        width: 100%;
+    }
+    .CartTotal {
+        width:100%;
+       
+    }
+    .imgup {
+        width: 100%;
+        float: left;
+    }
+     .container{
+        width: 620px
+    }
+    .footer1 .input {
+        width: 100%;
+        text-align: center
+
+    }.footer1 .contant {
+        width: 100%;
+        text-align: center
+
+    }.footer2 .container .elm {
+        width: 27%;
+        }
+    .footer2 {
+        height: 250px;
+    }
+    .footer2 .container .elm ul li{
+        line-height: 50px
+    }
+}
