@@ -10,3 +10,4 @@ index.html (home)
 cart 
 signin
 signup
+# https://amadosimple.000webhostapp.com/index.html
